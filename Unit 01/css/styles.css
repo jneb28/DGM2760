@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*BODY*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+/*HEADER*/
+body header {
+    background-image: url(../imgs/bed&breakfast.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    width: 100%;
+	
+}
+body header div#text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    color: black;
+}
+body header div#text h1 {
+    font-size: 3.5em;
+}
+body header div#text h2 {
+    font-size: 2.5em;
+}
+/*MAIN*/
+body main ul{
+	list-style-type: circle;
+	margin-bottom: 2em;
+}
+body main ul li {
+	margin: .5em 4em;
+}
+body main h4 {
+	margin-top: 1em;
+	margin-right: 3em;
+	margin-bottom: .5em;
+	margin-left: 3em;
+}
+body main p#name, p#date {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: darkred;
+	margin: .5em 2em;
+}
+/*FOOTER*/
+body footer p {
+	padding: 1em 0;
+	text-align: center;
+}
+body footer {
+	background-color: bisque;
+	
+}
