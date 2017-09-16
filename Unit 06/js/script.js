@@ -10,8 +10,3 @@ function storyTime() {
 button.addEventListener('click', function () {
 	storyTime();
 });
-
-/*
-,
-story = document.getElementById('story').innerHTML = "There once was a " + adjectives[0] + " " + nouns[0] + " that had to buy some " + nouns[1] + " very " + verbs[0] + " for " + nouns[0] + "'s grandmother.";
-*/
