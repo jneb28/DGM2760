@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reservation Form</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<main>
+<h1>Reserve Your Ride</h1>
+
+<section id="formProblems" class="hiddenErrorMsg">There was a problem with your submission.
+<div>Errors have been <i>highlighted</i> below.</div>
+</section>
+
+
+<form class="myForm" name="myForm" action="formProcessor.html" onsubmit="return checkForm()" method="post">
+
+
+<section id="fullName" class="normal">
+<label ><span>Full Name*</span>
+	<input name="fullName" type="text" class="myInput" placeholder = "Jon Smith" autofocus>
+	<div>Please provide your full name</div>
+</label>
+</section>
+
+<section id="phoneNumber" class="normal">
+<label ><span>Cell Number* (15 digits max)</span>
+	<input name="phoneNumber" type="tel" class="myInput" placeholder="4325556789">
+	<div>Phone number needs to be 10-15 digits</div>
+</label>
+</section>
+
+<section id="payMethod" class="normal">
+<span>Payment Method*</span>
+	<label><input name="payMethod" type="radio" class="myRadio"> VISA</label>
+	<label><input name="payMethod" type="radio" class="myRadio"> Master Card</label>
+	<label><input name="payMethod" type="radio" class="myRadio"> Discover</label>
+	<div>Please select a payment method for your rental</div>
+</section>
+
+<section id="ccNumber" class="normal">
+<label ><span>Credit Card Number*</span>
+	<input name="ccNumber" type="number" class="myInput" placeholder="1478 5236 9874 1584">
+	<div>Card number number needs to be 15 numbers</div>
+</label>
+</section>
+
+
+
+<section id="vehicle" class="normal">
+<label ><span>Vehicle Preference*</span>
+	<select name="vehicle" class="myInput">
+		<option value="">Please Select</option>
+		<option value="van">Van</option>
+		<option value="car">Car</option>
+		<option value="truck">Truck</option>
+	</select>
+	<div>Please select a vehicle</div>
+</label>
+</section>
+
+<input type="submit" value="Process My Rental" id="submitButton" class="submitButton">
+
+</form>
+
+</main>
+
+
+
+
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

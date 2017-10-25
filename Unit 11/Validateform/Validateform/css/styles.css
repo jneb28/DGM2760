@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+main {
+	max-width: 320px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	/*loaded 300 and 600 weight*/
+	}
+main h1 {color: #ff3232;}
+
+
+form.myForm section {
+	padding: .5rem 2%;
+	margin-bottom: .3rem;
+}
+
+form.myForm label {display: block;}
+form.myForm span {
+	background-color: #666; 
+	color: #eee; 
+	padding: .1rem;
+	font-weight: 600;
+	display: block;
+	font-size: .8rem;
+}
+
+
+form.myForm .myInput {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	border: 1px solid #b6b6b6;
+	font-size: 120%;
+	padding: .4rem 2%;
+	width: 100%;
+	background-color: transparent;
+}
+
+form.myForm .myInput:focus {
+	background-color: #e7e7e7;
+}
+
+form.myForm .submitButton {
+	border-radius: 20px;
+	background: #ff3232;
+	background: linear-gradient(to bottom,  #ff3232 0%,#c60000 100%);
+	color: white;
+	border: none;
+	width: 100%;
+	padding: .5rem;
+	text-align: center;
+	font-size: 1rem;
+}
+
+
+/*  ERROR STYLES   */
+
+/*Yellow box at the top of the form indicating there are errors below */
+section.hiddenErrorMsg {display: none;}
+section.showErrorMsg {
+	border: dashed 1px red;
+	border-radius: 15px;
+	color: red;
+	font-size: .9rem;
+	font-weight: 600;
+	text-align: center;
+	padding: .3rem 2%;
+	margin-bottom: .2rem;
+	background-color: #f2eed2;
+	display: block;
+}
+section.showErrorMsg div {
+	color: #333; 
+	font-size: .8rem;
+}
+section.showErrorMsg div i {
+	background-color: #ffdada; 
+	font-style: italic; 
+	color: red; 
+	font-weight: 300;
+}
+
+/*Chagne the background of the full thing to red*/
+form.myForm section.error{background-color: #ffdada;}
+
+/* hide the feedback text from the user*/
+form.myForm section.normal div {
+	display: none;
+}
+
+/* Show the feedback text to the user if needed*/
+form.myForm section.error div {
+	font-size: .7rem;
+	color: red;
+	font-weight: 600;
+	font-style: italic;
+	display: block;
+}
+
+
