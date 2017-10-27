@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang='en-US'>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link href='css/style.css' type='text/css' rel='stylesheet'>
+		<title>Solar Calculator</title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href='#'>About</a></li>
+				<li><a href='#'>Contact</a></li>
+				<li><a href='#'>Employment</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<figure><img src='img/panels.jpg' alt='Solar Panels' height='150px' width='100%'></figure>
+			<h1>So-lar Po-lar</h1>
+		</header>	
+
+		<main>
+			<h2>Solar Panel Calculator</h2>
+			<form name='solarForm' action='' method='post'>
+<!--MONTHLY POWER CONSUMPTION-->
+				<fieldset id='monthlyPower'>
+					<legend>Monthly Power Consumption</legend>
+					<label for='january'>
+						<span class='monthName'>January</span><input type='number' name='january' value='1028'><span>kWh</span>
+					</label>
+					<label for='febuary'>
+						<span class='monthName'>Febuary</span><input type='number' name='febuary' value='760'><span>kWh</span>
+					</label>
+					<label for='march'>
+						<span class='monthName'>March</span><input type='number' name='march' value='720'><span>kWh</span>
+					</label>
+					<label for='april'>
+						<span class='monthName'>April</span><input type='number' name='april' value='861'><span>kWh</span>
+					</label>
+					<label for='may'>
+						<span class='monthName'>May</span><input type='number' name='may' value='919'><span>kWh</span>
+					</label>
+					<label for='june'>
+						<span class='monthName'>June</span><input type='number' name='june' value='1001'><span>kWh</span>
+					</label>
+					<label for='july'>
+						<span class='monthName'>July</span><input type='number' name='july' value='864'><span>kWh</span>
+					</label>
+					<label for='august'>
+						<span class='monthName'>August</span><input type='number' name='august' value='801'><span>kWh</span>
+					</label>
+					<label for='september'>
+						<span class='monthName'>September</span><input type='number' name='september' value='936'><span>kWh</span>
+					</label>
+					<label for='october'>
+						<span class='monthName'>October</span><input type='number' name='october' value='721'><span>kWh</span>
+					</label>
+					<label for='november'>
+						<span class='monthName'>November</span><input type='number' name='november' value='998'><span>kWh</span>
+					</label>
+					<label for='december'>
+						<span class='monthName'>December</span><input type='number' name='december' value='879'><span>kWh</span>
+					</label>
+				</fieldset>
+<!--SOLAR HOURS MAP-->				
+				<h2>Solar Map</h2>
+				<fieldset id='solarMap'>
+					<legend>Solar Zone Map</legend>
+					<figure> <img src='img/solar_map.gif' alt='Solar Map'></figure>
+					<p>Choose which zone you live in.</p>
+						<select name='zone'>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+						</select>
+				</fieldset>
+<!--SOLAR PANELS-->
+				<fieldset id='panels'>
+					<legend>Solar Panel Options</legend>
+					<p>Select a solar panel.</p>
+					<select name='panel'>
+						<option value='250'>Axitec AC-250P/156-60S</option>
+						<option value='260'>Hanwha Q.Pro BFR-G4.260</option>
+						<option value='275'>Canadian Solar CS6k-275M</option>
+					</select>
+				</fieldset>
+			</form>
+			<h2>Calculate</h2>
+<!--CALCULATE BUTTON-->
+			<button id='calculate' onclick='main();'>Calculate Solar Requirements</button>
+<!--RESULTS-->		
+			<div id='results'><p>Enter the required information above to see your results.</p></div>
+		</main>
+
+		<footer>
+			<p>Unit 12 Solar Calculator By Joshua Nebeker</p>
+		</footer>
+	<script src='js/script.js'></script>
+	</body>
+</html>
