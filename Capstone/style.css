@@ -1,0 +1,76 @@
+/*RESET*/
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+/*BODY*/
+body {
+	margin: 0 2.5%;
+	background-color: #191919;
+	font-family: 'Barlow', sans-serif;
+    color: #ffffff;
+	
+}
+/*HEADER*/
+h1 {
+	text-align: center;
+	color: #ffffff;
+}
+h1 a {
+	text-decoration: none;
+	color: #ffffff;
+}
+/*NAV*/
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	border-left: 1.5px solid #ffffff;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-top: 6px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+/*GOOGLE MAP*/
+#map {
+	width: 47.5%;
+	height: 450px;
+	background-color: #eeeeee;
+	border: 1.5px solid #999999;
+	float: left;
+	margin-right: 24px;
+	padding: 24px;
+	
+}
+
+#infoWindow {
+	color: #191919;
+}
+
+#select {
+	margin-bottom: 8px;
+}
+/*FOOTER*/
+footer {
+	overflow: hidden;
+	clear: both;
+	
+}
+footer p {
+	padding-top: 8px;
+	font-size: 10px;
+}
+
+/*IMAGE*/
+img {
+	margin-top: 6px;
+	border: 1px solid #999999;
+}

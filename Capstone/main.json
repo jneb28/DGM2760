@@ -1,0 +1,50 @@
+[
+	{"name":"The Velour",
+	 "address":"135 N University Ave Provo, UT 84601",
+	 "phone":"(801) 818-2263",
+	 "website":"<a href='http://www.velourlive.com' target='_blank'>velourlive.com</a>",
+	 "photo":"img/velour.png"},
+	
+	{"name":"Gezzo Hall",
+	 "address":"490 Freedom Blvd 200 W, Provo, UT 84601",
+	 "phone":"(801) 636-4233",
+	 "website":"<a href='http://www.gezzohall.com' target='_blank'>gezzohall.com</a>",
+	 "photo":"img/gezzo.png"},
+	
+	{"name":"The Underground Social Hall",
+	 "address":"65 N University Ave, Provo, UT 84601",
+	 "phone":"(801) 812-0573",
+	 "website":"<a href='http://www.oldadobe.com' target='_blank'>oldadobe.com</a>",
+	 "photo":"img/underground.png"},
+	
+	{"name":"ABG's Libation Emporium",
+	 "address":"190 Center St, Provo, UT 84601",
+	 "phone":"(801) 373-1200",
+	 "website":"<a href='http://www.abgsbar.com' target='_blank'>abgsbar.com</a>",
+	 "photo":"img/abg.png"},
+	
+	{"name":"The State Room",
+	 "address":"638 S State St, Salt Lake City, UT 84111",
+	 "phone":"(800) 501-2885",
+	 "website":"<a href='http://www.thestateroom.com' target='_blank'>thestateroom.com</a>",
+	 "photo":"img/state.png"},
+	
+	{"name":"The Depot",
+	 "address":"400 W S Temple, Salt Lake City, UT 84101",
+	 "phone":"(801) 355-5522",
+	 "website":"<a href='http://www.depotslc.com' target='_blank'>depotslc.com</a>",
+	 "photo":"img/depot.png"},
+	
+	{"name":"Kilby Court",
+	 "address":"748 South Kilby Court, Salt Lake City, UT 84101",
+	 "phone":"(800) 513-7540",
+	 "website":"<a href='http://www.kilbycourt.com' target='_blank'>kilbycourt.com</a>",
+	 "photo":"img/kilby.png"},
+	
+	{"name":"Joshua Nebeker",
+	 "address":"Capstone",
+	 "phone":"DGM-2760",
+	 "website":"<a href='https://just128.justhost.com/~joshuane/' target='_blank'>Live Website</a>",
+	 "photo":"img/faer_dev.png"}
+	
+]
